@@ -18,5 +18,20 @@ public class Jugador {
 	public void setX(int x) {
 		this.x = x;
 	}
-
+	public void moverDerecha() {
+		this.x++;
+	}
+	
+	public void moverIzquierda() {
+		this.x--;
+	}
+	
+	public void moverArriba() {
+		this.y--;
+	}
+	
+	public void moverAbajo() {
+		this.y++;
+	}
+	
 }
